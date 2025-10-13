@@ -28,7 +28,7 @@
 
     <div id='hamburgerLinksVisor'>
         <div id='hamburgerLinks'>
-            <a href='{{ url('/register') }}'>Donate!</a>
+            <a href='{{ url('/donor_register') }}'>Donate!</a>
             <a href='{{ url('/donations') }}'>About</a>
             <a href='{{ url('/about-us') }}'>Settings</a>
         </div>
