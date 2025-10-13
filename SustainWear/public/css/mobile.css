@@ -1,0 +1,106 @@
+/* copied from resources/css/mobile.css so assets are served from public/ */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAFAF9F6;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Caprasimo', cursive;
+    font-size: 3em;
+    color: #2C2825;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Caprasimo', cursive;
+    font-size: 2.4em;
+    color: #2C2825;
+    letter-spacing: -2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+#hamburgerIcon .fa-bars {
+    color: #2C2825;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#hamburgerLinksVisor {
+    display: none;
+}
+
+#hamburgerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: #2C2825;
+}
+
+.divider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#title img {
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+#variableStatistic img {
+    width: 100%;
+    border-radius: 10px;
+    height: 550px;
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    color: #2C2825;
+    text-align: center;
+    font-size: 27px;
+}
+
+#mainIntroduction,
+#variableStatistic {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#seperator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#infoBox {
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    color: #2C2825;
+    text-align: center;
+}
