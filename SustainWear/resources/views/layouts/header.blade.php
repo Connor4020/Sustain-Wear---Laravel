@@ -28,8 +28,8 @@
 
     <div id='hamburgerLinksVisor'>
         <div id='hamburgerLinks'>
-            <a href='/login.php'>Log In</a>
-            <a href='/donations.php'>Donate!</a>
-            <a href='/about-us.php'>About</a>
+            <a href='{{ url('/register') }}'>Donate!</a>
+            <a href='{{ url('/donations') }}'>About</a>
+            <a href='{{ url('/about-us') }}'>Settings</a>
         </div>
     </div>
