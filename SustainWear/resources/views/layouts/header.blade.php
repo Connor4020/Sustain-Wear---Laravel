@@ -8,10 +8,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="{{ asset('css/desktop.css') }}" media="screen and (min-width: 769px)">
-    <link rel="stylesheet" href="{{ asset('css/mobile.css') }}" media="screen and (max-width: 768px)">
-    <script src="{{ asset('js/script.js') }}"></script>
-
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body>
