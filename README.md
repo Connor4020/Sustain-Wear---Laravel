@@ -29,3 +29,9 @@ php artisan serve
 If you encounter errors, you may need to edit your php.ini or install missing PHP extensions.
 
 Axios is included via npm, so make sure npm install runs successfully.
+
+make sure to generate an app key with: 
+
+```bash
+php artisan key:generate
+```
